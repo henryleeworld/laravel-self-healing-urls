@@ -14,11 +14,11 @@ class PostFactory extends Factory
      *
      * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
         return [
-            'title' => $title = $this->faker->text(20),
-            'content' => $this->faker->paragraphs(2, true),
+            'title' => $title = fake()->text(20),
+            'content' => fake()->paragraphs(2, true),
             'slug' => str_replace([' ', '.'],'-', rtrim(strtolower($title), '.')),
         ];
     }

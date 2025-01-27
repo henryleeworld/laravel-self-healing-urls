@@ -1,4 +1,4 @@
-# Laravel 10 自我修復網址
+# Laravel 11 自我修復網址
 
 引入 lukeraymonddowning 的 self-healing-urls 套件來擴增自我修復網址，您可以隨意更改模型的路由別名或僅部分匹配網址，並且在更改別名時無需擔心搜尋引擎最佳化的索引。
 
@@ -35,5 +35,5 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/zXvBgTw.png)
+![](https://i.imgur.com/1R9CodA.png)
 > 透過路由模型綁定處理識別該模型
